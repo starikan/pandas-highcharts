@@ -34,7 +34,7 @@ if 'IPKernelApp' in getipython.get_ipython().config:
 def _generate_div_id_chart(prefix="chart_id", digits=8):
     """Generate a random id for div chart.
     """
-    choices = (random.randrange(0, 52) for _ in xrange(digits))
+    choices = (random.randrange(0, 52) for _ in range(digits))
     return prefix + "".join((string.ascii_letters[x] for x in choices))
 
 
