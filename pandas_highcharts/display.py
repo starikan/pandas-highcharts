@@ -11,7 +11,7 @@ import copy
 from IPython.core import getipython
 from IPython.core.display import display, HTML
 
-from core import serialize
+from .core import serialize
 
 
 # Note that Highstock includes all Highcharts features.
